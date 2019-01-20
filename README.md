@@ -4,7 +4,7 @@ It is a library designed to generate dynamic fields for its prior assessment and
 
 <strong> Usage </strong>
 
-```sh
+```js
     var options = {
         id: "div_",
         icon: "trash",
