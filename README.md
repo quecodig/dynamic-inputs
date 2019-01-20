@@ -24,14 +24,16 @@ It is a library designed to generate dynamic fields for its prior assessment and
 
 <strong> Changelog </strong>
 = 1.3 =
-*Bug correction
-*The code is optimized
+* Bug correction
+* The code is optimized
 
 = 1.2 =
-*Bug correction
-*Classes are added to give styles
+
+* Bug correction
+* Classes are added to give styles
 
 = 1.0 =
+
 Initial release
 
 Changelog: https://www.phpcentral.com/pregunta/642/facturacion-con-diseno-en-bootstrap-multiples-inputs-dinamicos#resp_549406198764950208345d143aa67c7d
