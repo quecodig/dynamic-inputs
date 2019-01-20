@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba Input's</title>
+	<link rel="stylesheet" href="http://localhost/EPA/landing/admin/css/bootstrap.min.css">
+	<script src="http://localhost/EPA/landing/js/jquery.js"></script>
+	<script src="js/qc.addItem.js"></script>
+	<script>
+	var options = {
+		id: "div_",
+		icon: "trash",
+		form: "#form",
+		btn : ".addButton",
+		rmBtn: ".removeButton",
+		addClass : "btn-danger",
+		removeClass : "btn-info",
+	};
+	$(document).addItem(options);
+	</script>
+</head>
+<body>
+	<div class="container">
+		<br>
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h3 class="panel-title">Ingreso de items del remito</h3>
+			</div>
+			<div class="container">
+				<br>
+				<form id="form" class="form-horizontal" name="form" method="post" action="remitoProcesar.php">
+					<div class="form-group">
+						<label class="col-xs-1 control-label"></span>&nbsp;Opciones:</label>
+						<div class="col-xs-11">
+							<button type="button" class="btn btn-info addButton bt_plus"><span class="fa fa-plus glyphicon glyphicon-plus"></span>&nbsp;Añadir</button>
+							<button id="grabar" type="submit" class="btn btn-primary"><span class="glyphicon  glyphicon-send" aria-hidden="true"></span>&nbsp;Grabar</button>
+						</div>
+					</div>
+					<div id="div_1" class="form-group">
+						<label class="col-xs-1 control-label"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>&nbsp;Items:</label>
+						<div class="col-xs-6">
+							<input type="text" name="materiales[]" class="form-control"/>
+						</div>
+						<div class="col-xs-2">
+							<select name="provincia[]" class="form-control"><option>Provincia</option><option>CABA</option><option>Buenos Aires</option><option>Entre Rios</option><option>Santa Fe</option><option>Corrientes</option><option>Misiones</option></select>
+						</div>
+						<div class="col-xs-2">
+							<input type="text" name="cmateriales[]" class="form-control"/>
+						</div>
+						<div class="col-xs-1">
+							<!-- <input class="bt_plus" id="1" type="button" value="+" class="form-control"/> -->
+							<button type="button" id="1" class="btn btn-danger removeButton"><i class="glyphicon glyphicon-trash"></i></button>
+						</div>
+					</div>
+					<div class="spacer"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
