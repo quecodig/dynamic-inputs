@@ -21,19 +21,17 @@ It is a library designed to generate dynamic fields for its prior assessment and
 <strong> element: </strong> principal identifier of the first element / input.
 <strong> addClass: </strong> Class to add to the button (Currently used to change the color).
 <strong> removeClass:</strong> Class to remove from the button (Currently used to change the color).
+
 <strong> Changelog </strong>
-
-== 1.3 ==
-
+= 1.3 =
 *Bug correction
 *The code is optimized
 
-== 1.2 ==
-
+= 1.2 =
 *Bug correction
 *Classes are added to give styles
-== 1.0 ==
 
+= 1.0 =
 Initial release
 
 Changelog: https://www.phpcentral.com/pregunta/642/facturacion-con-diseno-en-bootstrap-multiples-inputs-dinamicos#resp_549406198764950208345d143aa67c7d
