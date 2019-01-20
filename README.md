@@ -2,7 +2,7 @@ Dynamic inputs,
 
 It is a library designed to generate dynamic fields for its prior assessment and data counting.
 
-== Usage ==
+<strong> Usage </strong>
 
 ```sh
     var options = {
@@ -23,6 +23,7 @@ It is a library designed to generate dynamic fields for its prior assessment and
 <strong> removeClass:</strong> Class to remove from the button (Currently used to change the color).
 
 <strong> Changelog </strong>
+
 = 1.3 =
 * Bug correction
 * The code is optimized
