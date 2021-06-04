@@ -22,6 +22,8 @@ It is a library designed to generate dynamic fields for its prior assessment and
 * <strong> addClass: </strong> Class to add to the button (Currently used to change the color). 
 * <strong> removeClass:</strong> Class to remove from the button (Currently used to change the color). 
 
+Demo: https://quecodig.github.io/dynamic-inputs/
+
 <strong> Changelog </strong>
 
 = 1.3 =
